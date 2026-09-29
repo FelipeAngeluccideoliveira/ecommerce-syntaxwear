@@ -46,21 +46,14 @@
 	background: url(../../images/products/moderno.jpg) no-repeat center;
 	background-size: cover;
 }
-<<<<<<< HEAD
-
-=======
 	
->>>>>>> 6fd5606aaa6b48ddea5102654a33aff7f33a1bbe
 .futurista {
 	background: url(../../images/products/futurista.jpg) no-repeat center;
 	background-size: cover;
 }
-<<<<<<< HEAD
-=======
 
 @media (max-width:500px) {
 	.category-card{
 		width: 100%;
 	}
 }
->>>>>>> 6fd5606aaa6b48ddea5102654a33aff7f33a1bbe

@@ -3,13 +3,6 @@ body{
     font-family: var(--fonte-principal);
     color: #333333;
 }
-<<<<<<< HEAD
-main{
-    padding: 2.5rem 0 0;
-    max-width: 1360px;
-    margin: 0 auto;
-}
-=======
 
 main{
     padding: 2.5rem 0 2.5rem;
@@ -23,7 +16,6 @@ main{
 	}
 }
 
->>>>>>> 6fd5606aaa6b48ddea5102654a33aff7f33a1bbe
 .btn{
     font-size: 1.25rem;
     width: 161px;
