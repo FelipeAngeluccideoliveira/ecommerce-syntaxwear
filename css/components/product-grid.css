@@ -1,55 +1,4 @@
 /* product-grid.css */
-<<<<<<< HEAD
-.card{
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    border-radius: 20px;
-  
-
-}
-.highlight{
-    grid-area: highlight;
-    background-image: url(../../images/products/card_imagem.jpg);
-    
-}
-.sneaker-purple{
-    grid-area: sneaker-purple;
-    background-image: url(../../images/products/roxo-verde-grid.jpg);
-    
-}
-.model{
-    grid-area: model;
-    background-image: url(../../images/products/modelo-feminino.jpg);
-    
-}
-.sneaker-color{
-    grid-area: sneaker-color;
-    background-image: url(../../images/products/futurista-grid.jpg);
-
-}
-.sneaker-white{
-    grid-area: sneaker-white;
-    background-image: url(../../images/products/ztenis-preto-branco.jpg);
-    
-}
-.sneaker-silver{
-    grid-area: sneaker-silver;
-    background-image: url(../../images/products/moderno-grid.jpg);
-    
-}
-.grid-section{
-    display: grid;
-    grid-template-columns:repeat(4, 1fr) ;
-    grid-template-rows:repeat(3, 300px) ;
-    grid-template-areas: 
-       "highlight highlight sneaker-purple sneaker-purple"
-       "highlight highlight model sneaker-color"
-       "sneaker-white sneaker-white model sneaker-silver ";
-    gap: 30px;
-}
-=======
 
 .card {
 	background-position: center;
@@ -94,35 +43,12 @@
 	gap: 30px;
 }
 
->>>>>>> 6fd5606aaa6b48ddea5102654a33aff7f33a1bbe
 .top1-content{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-<<<<<<< HEAD
-
-}
-.card-title{
-    color:lightgray;
-    font-size: 1.25rem;
-    font-weight: 400;
-    margin-bottom: 10px;
-
-}
-.card-subtitle{
-     color:lightgray;
-     font-size: 1.5rem;
-     font-weight: 400;
-     margin-bottom: 20px;
-}
-.cta-group{
-    display: flex;
-    gap: 10px;
-
-}
-=======
 }
 
 .card-title{
@@ -144,31 +70,3 @@
     gap: 10px;
 }
 
-
-@media (max-width:768px) {
-	.grid-section{
-		grid-template-columns: 1fr 1fr;
-		grid-template-rows: repeat(5, auto);
-		grid-template-areas: 
-		"highlight highlight"
-		"sneaker-white sneaker-white"
-		"model sneaker-color"
-		"model sneaker-silver"
-		"sneaker-purple sneaker-purple";
-		max-width: 100%;
-		gap: 0.625rem;
-	}
-
-	.highlight{
-		min-height: 500px;
-	}
-
-	.model{
-		min-height: 370px;
-	}
-
-	.sneaker-white, .sneaker-purple{
-		min-height: 190px;
-	}
-}
->>>>>>> 6fd5606aaa6b48ddea5102654a33aff7f33a1bbe
