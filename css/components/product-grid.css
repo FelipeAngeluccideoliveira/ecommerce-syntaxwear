@@ -82,6 +82,7 @@
 		grid-template-rows: repeat(6, 300px);
 		grid-template-areas:
 			"highlight highlight"
+			"highlight highlight"
 			"sneaker-white sneaker-white"
 			"model sneaker-color"
 			"model sneaker-silver"
@@ -98,8 +99,7 @@
 		min-height: 370px
 	}
 
-	.sneaker-white,
-	.sneaker-purple {
+	.sneaker-white, .sneaker-purple {
 		min-height: 190px
 	}
 }
